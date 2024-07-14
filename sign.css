@@ -1,0 +1,216 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.im img{
+    height: 800px;
+    width: 700px;
+    margin-top: 20px;
+    border-radius: 4%;
+}
+.s h1{
+    margin-bottom: 700px;
+    margin-left: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+    color:rgb(0, 0, 0);
+}
+
+
+.p{
+     margin-bottom: 550px;
+}
+
+.p p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: -290px;
+}
+
+.p p a{
+     margin-left: 10px;
+     position:relative;
+    text-decoration:none;
+    text-transform: capitalize;
+    padding: 0 10px;
+    color:rgba(0, 4, 255, 0.932);
+}
+.p p a:before{
+    position: absolute;
+    content:  "" ;
+    height: 1px;
+    background: rgba(252, 0, 0, 0.863)  ;
+    left: 0;
+    width: 0%;
+    bottom: -5px;
+    transition: 0.3s;
+}
+
+.p p a:hover:before{
+    width: 100%;
+}
+
+.p p a:hover{
+    color:rgba(252, 0, 0, 0.863) ;
+}
+
+.input{
+ display: block;
+ margin-left: -300px;
+}
+
+.in-1 input{
+    height: 50px;
+    width:400px ;
+    border-radius: 4em;
+    padding: 20px;
+    border-bottom: 2px solid blue;
+    border-top: 2px solid blue ;
+    border-left: 2px solid blue ;
+    border-right: 2px solid blue ;
+}
+
+.in-1 p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    color: rgba(41, 38, 38, 0.589);
+}
+
+.in-2 input{
+    height: 50px;
+    width:400px ;
+    border-radius: 4em;
+    padding: 20px;
+    border-bottom: 2px solid blue;
+    border-top: 2px solid blue ;
+    border-left: 2px solid blue ;
+    border-right: 2px solid blue ;
+}
+
+.in-2 p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    color: rgba(41, 38, 38, 0.589);
+}
+.in-2{
+    margin-top: 40px;
+    margin-left: -100px;
+}
+
+.in-1{
+    margin-top: 50px;
+    margin-left: -100px;
+}
+
+
+.ra {
+    margin-top: 30px;
+}
+
+.ra input{
+   margin-left: -60px;
+}
+
+.ra a{
+    margin-left: 150px;
+    position:relative;
+    text-decoration:none;
+    text-transform: capitalize;
+    padding: 0 10px;
+    color:rgba(0, 4, 255, 0.932);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.ra a:before{
+    position: absolute;
+    content:  "" ;
+    height: 1px;
+    background: rgba(252, 0, 0, 0.863)  ;
+    left: 0;
+    width: 0%;
+    bottom: -5px;
+    transition: 0.3s;
+}
+
+.ra a:hover:before{
+    width: 100%;
+}
+
+.ra a:hover{
+    color:rgba(252, 0, 0, 0.863) ;
+}
+
+.oo{
+    margin-bottom: -100px;
+}
+.oo input{
+        font-size: 25px;
+        height: 50px;
+        width: 350px;
+        border-radius: 40em;
+        background:blue;
+        color:white;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border:none;
+        transition: 0.9s;
+        margin-left: -70px;
+        margin-top: 50px;
+}
+
+.oo input:hover{
+    transform: scale(1.1)
+}
+
+
+.in-3 input{
+    height: 50px;
+    width:400px ;
+    border-radius: 4em;
+    padding: 20px;
+    border-bottom: 2px solid blue;
+    border-top: 2px solid blue ;
+    border-left: 2px solid blue ;
+    border-right: 2px solid blue ;
+}
+
+.in-3 p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    color: rgba(41, 38, 38, 0.589);
+}
+.in-3{
+    margin-top: 40px;
+    margin-left: -100px;
+}
+.in-4 input{
+    height: 50px;
+    width:400px ;
+    border-radius: 4em;
+    padding: 20px;
+    border-bottom: 2px solid blue;
+    border-top: 2px solid blue ;
+    border-left: 2px solid blue ;
+    border-right: 2px solid blue ;
+}
+
+.in-4 p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    color: rgba(41, 38, 38, 0.589);
+}
+.in-4{
+    margin-top: 40px;
+    margin-left: -100px;
+}
+
+.ll{
+    margin-top: 10px;
+}
