@@ -18,7 +18,6 @@ body{
 
 .hh{
     margin-right: -1300px;
-    margin-top: 30px;
 }
 
 .hh h1{
@@ -26,7 +25,7 @@ body{
     font-size: 45px;
     color:rgb(0, 0, 0);
     width: 200px;
-    margin-bottom: 20px;
+    margin-top: 5px;
 }
 
 
@@ -100,30 +99,26 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 17px;
     color: rgba(41, 38, 38, 0.589);
+    
 }
 .in-2{
-    margin-top: 40px;
+    margin-top: 14px;
     margin-left: -100px;
 }
 
 .in-1{
-    margin-top: 50px;
     margin-left: -100px;
 }
 
 
 .ra {
-    margin-top: 30px;
+    margin-top: 14px;
 }
 
 .ra input{
    margin-left: -60px;
 }
 
-
-.oo{
-    margin-bottom: -100px;
-}
 .oo input{
         font-size: 25px;
         height: 50px;
@@ -135,8 +130,8 @@ body{
         border:none;
         transition: 0.9s;
         margin-left: -70px;
-        margin-top: 50px;
-        margin-bottom: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
 }
 
 .oo input:hover{
@@ -161,7 +156,7 @@ body{
     color: rgba(41, 38, 38, 0.589);
 }
 .in-3{
-    margin-top: 40px;
+    margin-top: 14px;
     margin-left: -100px;
 }
 .in-4 input{
@@ -181,7 +176,7 @@ body{
     color: rgba(41, 38, 38, 0.589);
 }
 .in-4{
-    margin-top: 40px;
+    margin-top: 14px;
     margin-left: -100px;
 }
 
@@ -576,8 +571,8 @@ body{
     }
 
     .in-1 input{
-        height: 50px;
-        width:450px ;
+        height: 49px;
+        width:448px ;
     }
     
     .in-1 p{
@@ -585,8 +580,8 @@ body{
         color:rgba(0, 0, 0, 0.822);
     }
     .in-2 input{
-        height: 50px;
-        width:450px ;
+        height: 49px;
+        width:448px ;
     }
     
     .in-2 p{
@@ -594,8 +589,8 @@ body{
         color:rgba(0, 0, 0, 0.822);
     }
     .in-3 input{
-        height: 50px;
-        width:450px ;
+        height: 49px;
+        width:448px ;
     }
     
     .in-3 p{
@@ -603,8 +598,8 @@ body{
         color:rgba(0, 0, 0, 0.822);
     }
     .in-4 input{
-        height: 50px;
-        width:450px ;
+        height: 49px;
+        width:448px ;
     }
     
     .in-4 p{
@@ -614,8 +609,9 @@ body{
 
     .oo input{
         font-size: 25px;
-            height: 50px;
+            height: 45px;
             width: 350px;
+
 }
     
 }
